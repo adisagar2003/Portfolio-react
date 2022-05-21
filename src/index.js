@@ -9,6 +9,7 @@ import AboutMe from './Components/AboutMe';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Projects from './Components/Projects';
 
+import Nav from './Components/Nav';
 import Footer from './Components/Footer'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,12 +18,12 @@ root.render(
     
     
   
-    <App />
+<Nav />
     <BrowserRouter>
     <Routes>
       <Route path='/' element={ <Heading />}></Route>
       
-      <Route path='/projects' element={<Projects />}></Route>
+      <Route path='/projects' element={ <Projects />}></Route>
 
     </Routes>
     <Routes>

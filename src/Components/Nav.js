@@ -18,10 +18,10 @@ function Nav() {
        <div class='float-right text-white p-5'>
         <ul class='flex gap-6 '>
           <Router>
-          <Link to='/'>
-         <li class='text-slate-300 hover:text-white transition-all'>HOME</li></Link>  
-           <Link to='/about'> <li class='text-slate-300 hover:text-white transition-all'>ABOUT</li></Link>
-            <Link to='/footer'> <li class='text-slate-300 hover:text-white transition-all'>CONTACT</li></Link> </Router>
+        
+         <li class='text-slate-300 hover:text-white transition-all'><a href='/'>HOME</a></li>
+            <li class='text-slate-300 hover:text-white transition-all'><a href='/projects'>PROJECTS</a></li>
+            <Link to='/footer'> <li class='text-slate-300 hover:text-white transition-all '>CONTACT</li></Link> </Router>
         </ul>
         </div>
       
