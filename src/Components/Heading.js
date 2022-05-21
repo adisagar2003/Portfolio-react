@@ -12,7 +12,7 @@ function Heading() {
       };
     
   return (
-    <div class='text-white text-5xl '>
+    <div class='text-white text-5xl relative top-[200px] '>
         
  <TypeAnimation
             cursor={true}
