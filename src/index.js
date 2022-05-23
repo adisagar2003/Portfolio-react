@@ -44,9 +44,9 @@ root.render(
     
     
  
-
+    <Projects></Projects>
     
-    <div class='relative bottom-[-600px]'>
+    <div class='relative bottom-[-300px]'>
     <Footer></Footer>
 </div>
 
