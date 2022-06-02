@@ -1,6 +1,7 @@
 import React from 'react'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
-
+import { BsDiscord } from "react-icons/bs";
+import {BsEnvelopeFill} from 'react-icons/bs'
 function Footer() {
   return (
 
@@ -20,6 +21,11 @@ function Footer() {
 
         <p class="mb-4">
          I can be contacted via email, discord and Github.
+         <BsDiscord></BsDiscord>Adi❄❄#4749
+         <p class="mr-5">
+           <BsEnvelopeFill></BsEnvelopeFill>adityasagarpython@gmail.com
+         </p>
+
         </p>
       </div>
     </div>

@@ -37,6 +37,8 @@ root.render(
 
     </Routes>
     </BrowserRouter>
+
+    <Footer />
     
   {/* <div class='relative top-[200px]'>
     <Heading></Heading>
@@ -44,7 +46,7 @@ root.render(
     
     
  
-    <Projects></Projects>
+  
     
     <div class='relative bottom-[-300px]'>
     <Footer></Footer>

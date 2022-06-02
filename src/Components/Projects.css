@@ -1,0 +1,25 @@
+.Projects__layout{
+
+}
+
+.Projects__headingCard{
+
+
+}
+.Projects___leftContainer{
+    float:left;
+    padding: 10px;
+    border: 1px solid white;
+    
+}
+.Projects__contentLayout{
+    position: relative;
+    top: 20vh;
+    
+    left: 10vh;
+}
+.Projects__rightContainer{
+    float:right;
+   
+    border: 1px solid white;
+}
