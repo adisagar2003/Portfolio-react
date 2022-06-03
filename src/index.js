@@ -12,7 +12,9 @@ import Projects from './Components/Projects';
 import Nav from './Components/Nav';
 import Footer from './Components/Footer'
 const root = ReactDOM.createRoot(document.getElementById('root'));
+console.log(window.innerWidth);
 root.render(
+  
   <React.StrictMode>
     
     
@@ -38,7 +40,7 @@ root.render(
     </Routes>
     </BrowserRouter>
 
-    <Footer />
+  
     
   {/* <div class='relative top-[200px]'>
     <Heading></Heading>
@@ -48,9 +50,7 @@ root.render(
  
   
     
-    <div class='relative bottom-[-300px]'>
-    <Footer></Footer>
-</div>
+   
 
   </React.StrictMode>
   

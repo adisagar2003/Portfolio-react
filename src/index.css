@@ -12,6 +12,8 @@ body {
   background-size: cover;
   -moz-osx-font-smoothing: grayscale;
   background-attachment: fixed;
+  max-width: 1327px;
+  min-width: 1327px;
 }
 
 code {
