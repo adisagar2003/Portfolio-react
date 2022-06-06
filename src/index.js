@@ -20,8 +20,9 @@ root.render(
     
     
   
-<Nav />
+
     <BrowserRouter>
+    <Nav />
     <Routes>
       <Route path='/' element={ <Heading />}></Route>
       

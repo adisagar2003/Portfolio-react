@@ -10,18 +10,20 @@ function Nav() {
     <div    class='text-white p-5 float-left'>
       <div class='flex'>
       <CodeSlash />
-      <a href='#' class='text-xl font-semibold'>Aditya</a>
+      <Link to='/'class='text-xl font-semibold'>Aditya</Link>
       </div>
    
        
        </div>
        <div class='float-right text-white p-5'>
         <ul class='flex gap-6 '>
-          <Router>
         
-         <li class='text-slate-300 hover:text-white transition-all'><a href='/'>HOME</a></li>
-            <li class='text-slate-300 hover:text-white transition-all'><a href='/projects'>PROJECTS</a></li>
-            <Link to='/footer'> <li class='text-slate-300 hover:text-white transition-all '>CONTACT</li></Link> </Router>
+        <Link to='/'>
+         <li class='text-slate-300 hover:text-white transition-all'>HOME</li></Link>
+
+         <Link to='/projects'>
+            <li class='text-slate-300 hover:text-white transition-all'>PROJECTS</li></Link>
+            <Link to='/contact'> <li class='text-slate-300 hover:text-white transition-all '>CONTACT</li></Link>
         </ul>
         </div>
       
